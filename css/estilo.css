@@ -1,0 +1,323 @@
+.home{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: #853221;
+}
+
+.bodygaleria{
+    background-color: #ffffff;
+}
+
+.cabecalho{
+    background-color: #4E2921;
+}
+.logomenu img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.cabecalho{
+    background-color: #4E2921;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.pesquisa{
+    border-radius: 100%;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 80px;
+}
+.menus li{
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    transition: transform 0.3s;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: #431c12;
+    gap: 20px;
+    background-color: #89493f;
+    width: 300px;
+    padding-left: 500px;
+
+}
+
+h1:hover{
+    color: #ededed;
+
+}
+
+
+.sinopse{
+    display: flex;
+}
+
+.texto1{
+    color: white;
+    font-size: 24px;
+    background-color: #853221;
+    height: 360px;
+}
+
+.pSinopse{
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    transition: color 0.3s ease;
+
+}
+
+.flor img{
+    width: 450px;
+    height: 400px;
+}
+
+.floatright{
+    float: right;
+    margin-right: 0px;
+    width: 600px;
+    height: 400px;
+    animation: move 5s infinite;
+}
+.floatright:hover{
+    animation: move 2s infinite;
+    transform: rotate(-30deg);
+}
+
+.Comentarios{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardComentario{
+    background-color: #191c42;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+}
+
+.cardComentario2{
+    background-color: #0c320e;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+}
+
+.cardComentario3{
+    background-color: #876209;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+}
+
+.cardComentario4{
+    background-color: #431c12;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+}
+
+.texto{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cardComentario p{
+
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #ededed;
+}
+
+.cardComentario2 p{
+
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #ededed;
+}
+
+.cardComentario3 p{
+
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #ededed;
+}
+
+.cardComentario4 p{
+
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #ededed;
+}
+
+.imgComentario img{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.galeria{
+    gap: 50px;
+    display: flex ;
+    align-items: flex-start;
+}
+
+.conteudo1 img{
+    width: 100%;
+}
+
+.conteudo2 img{
+    width: 100%;
+}
+
+/* contato */
+
+.contato{
+    display: flex;
+    align-items: center;
+
+
+}
+
+/*.mensagens{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.mensagem1{*/
+/*    text-align: center;*/
+/*    color: #184c1a;*/
+/*    font-size: 50px;*/
+/*}*/
+
+/*.mensagem2{*/
+/*    text-align: justify;*/
+/*    color: #fb9118;*/
+/*    font-size: 20px;*/
+/*}*/
+
+.txtcont {
+
+    background-color: rgb(67, 28, 18);
+    color: white;
+    font-family: "Bell MT";
+    /*padding: 5px;*/
+    font-size: 20px;
+}
+
+.cardContt{
+    background-color: #431c12;
+    height: 200px;
+    width: 720px;
+    margin: 50px;
+    padding: 30px;
+}
+
+.dadosContt input {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    height: 30px;
+    width: 700px;
+}
+
+
+/* RODAPE */
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: #4E2921;
+    padding: 40px;
+    margin-top: 50px;
+}
+.rodape img{
+    width: 100px;
+    height: 100px;
+}
+.rodape p{
+    color: white;
+}
+.logo{
+    display: flex;
+}
+.tiktok{
+    width: 53px !important;
+    height: 53px !important;
+    margin-top: 20px; !important;
+}
+
+ul li a {
+    color: #ffffff; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+ul li a:hover {
+    color: #c5a193; /* Cor quando passar o mouse */
+}
+@media (max-width: 768px) {
+    .sinopse {
+        display: flex;
+        flex-direction: column;
+    }
+}

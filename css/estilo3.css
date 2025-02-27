@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #e8e2d6;
+    /*font-family: Tailwind, Geneva, Verdana;*/
+}
+
+.cabecalho{
+    background-color: #4E2921;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.cabecalho{
+    background-color: #4E2921;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pesquisa{
+    border-radius: 100%;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 80px;
+}
+.menus li{
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    transition: transform 0.3s;
+}
+.banner{
+    display: flex;
+    margin-bottom: 40px;
+}
+.episodios{
+    width: 100%;
+    height: 480px;
+}
+.conteudo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.texto,h1,p{
+    align-items: center;
+    color: #9C3720;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: #4E2921;
+    padding: 40px;
+}
+.rodape img{
+    width: 100px;
+    height: 100px;
+}
+.rodape p{
+    color: white;
+}
+.logo{
+    display: flex;
+}
+.tiktok{
+    width: 53px !important;
+    height: 53px!important;
+    margin-top: 20px !important;
+}
+.texto,p{
+    font-size: 20px;
+}
+.historia,p{
+    font-size: 20px;
+}
+
+ul li a {
+    color: #ffffff; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+ul li a:hover {
+    color: #c5a193; /* Cor quando passar o mouse */
+}
+@media (max-width: 768px) {
+    /*.fundoCard {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*}*/
+}
